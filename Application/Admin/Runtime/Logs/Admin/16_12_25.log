@@ -1,0 +1,352 @@
+[ 2016-12-25T18:50:04+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003172s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002979s ]
+
+[ 2016-12-25T18:50:05+08:00 ] 127.0.0.1 /tp/index.php/Index/VerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2016-12-25T18:50:17+08:00 ] 127.0.0.1 /tp/index.php/Index/VerifyCode?0.14807849932200157
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002891s ]
+
+[ 2016-12-25T18:50:18+08:00 ] 127.0.0.1 /tp/index.php/Index/VerifyCode?0.14807849932200157&random=0.2912994985314876
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002110s ]
+
+[ 2016-12-25T18:50:26+08:00 ] 127.0.0.1 /tp/index.php/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'yzj' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-25T18:50:26+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002692s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'yzj' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-25T18:50:26+08:00 ] 127.0.0.1 /tp/index.php/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_product` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0105s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT Product.id AS id,Product.pro_name AS pro_name,Product.market_price AS market_price,Product.shop_price AS shop_price,Product.pro_num AS pro_num,Product.pro_cate AS pro_cate,Product.pro_img AS pro_img,Product.img_path AS img_path,Product.pro_time AS pro_time,Category.name AS name FROM think_product Product  JOIN think_category Category ON Product.pro_cate=Category.id ORDER BY Product.id DESC LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002409s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020204s ]
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014168s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015901s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.034042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010773s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.028105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2016-12-25T18:50:26+08:00 ] 127.0.0.1 /tp/index.php/Product/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+
+[ 2016-12-25T18:50:26+08:00 ] 127.0.0.1 /tp/index.php/Product/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-12-25T19:10:39+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003607s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002783s ]
+
+[ 2016-12-25T19:10:39+08:00 ] 127.0.0.1 /tp/index.php/Index/VerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003881s ]
+
+[ 2016-12-25T19:16:12+08:00 ] 127.0.0.1 /tp/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002999s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002849s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019928s ]
+NOTIC: [8] Undefined variable: page C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\eee7d97f8328332523786ca8cd94a076.php 第 44 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\eee7d97f8328332523786ca8cd94a076.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018897s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020243s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.038769s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010970s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002969s ]
+
+[ 2016-12-25T19:16:12+08:00 ] 127.0.0.1 /tp/index.php/Admin/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-12-25T19:16:12+08:00 ] 127.0.0.1 /tp/index.php/Admin/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-12-25T19:27:07+08:00 ] 127.0.0.1 /tp/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+NOTIC: [8] Undefined variable: list C:\wamp\www\tp\Application\Admin\Admin\Controller\AdminController.class.php 第 6 行.
+
+[ 2016-12-25T19:27:25+08:00 ] 127.0.0.1 /tp/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `think_admin`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018428s ]
+NOTIC: [8] Undefined variable: page C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\eee7d97f8328332523786ca8cd94a076.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012639s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013787s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011333s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.026505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003384s ]
+
+[ 2016-12-25T19:27:26+08:00 ] 127.0.0.1 /tp/index.php/Admin/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+
+[ 2016-12-25T19:27:26+08:00 ] 127.0.0.1 /tp/index.php/Admin/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+
+[ 2016-12-25T19:28:12+08:00 ] 127.0.0.1 /tp/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003290s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `think_admin`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002913s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019467s ]
+NOTIC: [8] Undefined variable: page C:\wamp\www\tp\Application\Admin\Runtime\Cache\Admin\eee7d97f8328332523786ca8cd94a076.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012727s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014153s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory C:\wamp\www\tp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010506s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.026130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003360s ]
+
+[ 2016-12-25T19:28:13+08:00 ] 127.0.0.1 /tp/index.php/Admin/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2016-12-25T19:28:13+08:00 ] 127.0.0.1 /tp/index.php/Admin/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+

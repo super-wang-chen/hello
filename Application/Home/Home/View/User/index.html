@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>账号中心</title>
+		<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Home/Common/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Home/Common/css/user.css"/>
+		<script src="__ROOT__/Application/Home/Home/Common/js/jquery-1.12.4.min.js"></script>
+		<script src="__ROOT__/Application/Home/Home/Common/js/user.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="mg">
+				<div class="logo fl">
+					<a href="__APP__/Index/index">
+						<img src="__ROOT__/Application/Home/Home/Common/img/common/logo.png" alt="" />
+					</a>
+				</div>
+<!-- 				<div class="search fl">
+					<form action="">
+						<input type="text" placeholder="请输入关键词"/>
+						<a href="#"><img src="__ROOT__/Application/Home/Home/Common/img/common/search.png"/></a>
+					</form>
+				</div> -->
+				<div class="shopcar fr">
+					<a href="__APP__/Cart/index">购物车<img src="__ROOT__/Application/Home/Home/Common/img/common/car.png" alt="" /></a>
+				</div>
+				
+					<if condition="$_SESSION['vip_name'] eq ''"> 				
+					<div class="login fr">				
+					    <a href="__APP__/Login/login">登陆</a>/<a href="__APP__/Login/register">注册</a>
+					</div>					
+				    <else/>				
+					<div class="login fr">				
+					    <a href="__APP__/Login/login">欢迎您，<span style="color:red;">{$_SESSION['vip_name']}</span>!</a><a href="{:U('Login/LoginOut')}">&nbsp&nbsp退出</a>
+					</div>									
+				</if>
+				
+			</div>
+			<div class="nav">
+				<div class="mg">
+					<ul>
+									
+						<li><a href="__APP__/Index/index">首页</a></li>
+						<li><a href="__APP__/Brand/index">品牌介绍</a></li>
+						<li><a href="__APP__/News/index">新闻中心</a></li>
+						<li><a href="__APP__/Product/index">产品中心</a></li>
+						<li><a href="__APP__/Contact/index">联系我们</a></li>
+						<li><a href="__APP__/User/index">会员中心</a></li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+	    
+	    
+	    
+		<div class="content order">
+			<div class="mg">
+				<div class="sidebar">
+					<ul>
+						<li><a href="__APP__/User/data">个人资料</a></li>
+						<li class="on"><a href="__APP__/User/index">账号中心</a></li>
+						<li><a href="__APP__/Cart/index">购物车</a></li>							
+						<li><a href="__APP__/User/myorder">我的订单</a></li>
+						<li><a href="__APP__/Login/register">会员注册</a></li>
+					</ul>
+				</div>
+				<div class="main">
+					<div class="top">
+						<img src="__ROOT__/Application/Home/Home/Common/img/user/img1.jpg" alt="" />
+						<ul>
+							<li>昵称&nbsp;:&nbsp;<span>{$info.vip_name}</span></li>
+							<li>账号安全&nbsp;:&nbsp;<img src="__ROOT__/Application/Home/Home/Common/img/user/img2.png"/></li>
+							<li>账号&nbsp;:&nbsp;<span>{$info.vip_name}</span></li>
+							<li>上次登录时间&nbsp;:&nbsp;<span>{$vip_time}</span></li>
+							<li>会员等级&nbsp;:&nbsp;<img src="__ROOT__/Application/Home/Home/Common/img/user/img1.png"/></li>
+							<li>账号余额&nbsp;:&nbsp;<span>1000.00</span></li>
+						</ul>
+					</div>
+					 <div class="center">
+
+					</div>
+					<div class="bottom">
+						<h3>推送信息</h3>
+						<div class="prolist">
+							<a href="javascript:;" class="left"><img src="__ROOT__/Application/Home/Home/Common/img/user/left.png"/></a>
+							<a href="javascript:;" class="right"><img src="__ROOT__/Application/Home/Home/Common/img/user/right.png"/></a>
+							<div>
+								<ul>
+								<volist name='list' id="vo">
+									<li><img style="width:150px;height:80px;" src="{$vo.pro_img}" alt="" /><div><a href="__APP__/Product/pro_details/id/{$vo.id}">了解更多</a></div></li>
+								</volist>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				<!-- footer部分开始 -->
+		<div class="footer">
+			<p>版权手有 © GSDGSHS怀素堂花草茶 HDIGFDGDGD UHF  ICU备12028918号</p>
+		</div>
+		<!-- footer部分结束 -->
+	</body>
+</html>

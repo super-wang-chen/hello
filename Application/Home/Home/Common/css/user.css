@@ -1,0 +1,57 @@
+*{color: #666666;}
+.content{padding: 67px 0;background: #f5f5f5;}
+.order .mg{width: 1160px;padding: 0 20px;}
+.order .sidebar{float: left;}
+.order .sidebar ul li{width: 180px;height: 60px;text-align: center;line-height: 60px;background:#879d17 url(../img/order/bottom.png) no-repeat left 40px center;}
+.order .sidebar ul li:first-child+li+li a{padding-left: 20px;}
+.order .sidebar ul li a{color: white;font-size: 18px;padding-left: 22px;}
+.order .sidebar ul li.on a{color: #879D17;display: block;}
+.order .sidebar ul li.on{background: white url(../img/order/right2.png) no-repeat left 40px center;color: #879D17;}
+.order .sidebar ul li:hover a{color: #879D17;display: block;}
+.order .sidebar ul li:hover{background: white url(../img/order/right2.png) no-repeat left 40px center;color: #879D17;}
+.order .main{background: white;float: left;width: 926px;margin-left: 10px;box-sizing: border-box;}
+
+.order .main .top{padding-left: 24px;padding-top: 24px;}
+.order .main .top>img{float: left;margin-right: 20px;border: 3px solid #879D17;}
+.order .main .top li{float: left;width: 300px;margin-bottom: 20px;font-size: 18px;color: #879D17;line-height: 24px;}
+.order .main .top li span{color: #666666;line-height: 24px;}
+.order .main .top li:nth-child(6){float: left;margin-top: 45px;margin-left: -300px;}
+.order .main .top li:nth-child(2) img{margin-top: 10px;}
+.order .main .top li:nth-child(5) img{margin-top: -2px;margin-left: 3px;}
+.order .main .top li img{display: inline;vertical-align: middle;}
+.order .main .top li span{vertical-align: middle;}
+
+.order .main .center{clear: both;overflow: hidden;padding:20px 80px 0px 80px;}
+.order .main .center h3{font-size: 18px;font-weight: normal;text-align: center;border-bottom: 1px solid #999900;line-height: 56px;}
+.order .main .center ul{margin-top: 20px;}
+.order .main .center ul li{width: 512px;border-bottom: 1px solid #CCCCCC;margin: 0 20px;padding: 20px;}
+.order .main .center ul li:after{content: "";clear: both;display: block;}
+.order .main .center ul li a:first-of-type img{float: left;}
+.order .main .center ul li p{float: left;margin: 0 35px;color: #999999;margin-top: 6px;}
+.order .main .center ul li p a{color: #999999;}
+.order .main .center ul li>a{float: left;}
+.order .main .center ul li>a.come{width: 75px;height: 30px;background: white;color:#879D17;text-align: center;line-height: 30px;margin-top: 6px;border: 1px solid #879D17;}
+.order .main .center ul li>a.come:hover{background: #879D17;color: white;}
+.order .main .center ul li a.del{margin-left: 60px;position: absolute;margin-top: 6px;}
+
+.order .main .bottom{margin-top: 40px;}
+.order .main .bottom h3{font-size: 18px;font-weight: normal;text-align: center;margin-bottom: 15px;}
+.order .main .bottom .prolist{text-align: center;background: #879D17;padding: 30px 0;position: relative;}
+.order .main .bottom .prolist>div{width: 550px;margin: 0 auto;overflow: hidden;}
+.order .main .bottom ul{clear: both;margin-right: -50px;display: inline-block;width: 2000px;}
+.order .main .bottom li{float: left;margin-right: 50px;position: relative;width: 150px;}
+.order .main .bottom li>div{position: absolute;width: 100%;height: 100%;background: black;background: rgba(0,0,0,0.6);top: 0;left: 0;display: none;}
+.order .main .bottom li:hover >div{display: block;}
+.order .main .bottom li div a{color: white;position: absolute;width: 80px;height: 30px;top: 50%;margin-top: -15px;left: 50%;margin-left: -40px;text-align: center;line-height: 30px;border: 1px solid #879D17;}
+.order .main .bottom a.left{position: absolute;left: 140px;top: 50%;margin-top: -11px;}
+.order .main .bottom a.right{position: absolute;right: 140px;top: 50%;margin-top: -11px;}
+
+
+
+
+
+
+
+
+
+

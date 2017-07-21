@@ -1,0 +1,10 @@
+[ 2017-06-23T10:55:58+08:00 ] ::1 /tp2/Admin.php/Order/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-06-23T10:55:58+08:00 ] ::1 /tp2/Admin.php/Order/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+

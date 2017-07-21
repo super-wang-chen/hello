@@ -1,0 +1,40 @@
+	<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Home/Common/css/product.css"/>				
+		<title>产品中心</title>
+		<div class="content">
+			<h2><span>产品中心</span></h2>
+			<div class="mg">
+				<div class="slibebar fl">
+					<ul class="current">
+					    <volist name="cate" id='vo'>
+					     <if condition="$_GET['id'] eq $vo['id']">
+						<li class="aaa"><a href="__APP__/Product/index/id/{$vo.id}">{$vo.name}<span></span></a></li>
+						<else/>
+						<li><a href="__APP__/Product/index/id/{$vo.id}">{$vo.name}<span></span></a></li>
+						</if>
+						</volist>
+						
+					</ul>
+				</div>
+				<div class="main">
+					<p>当前位置：<a href="__APP__/Index/index">首页</a>><a href="__APP__/Product/index">产品中心</a>><a href="###" class="on">产品中心</a></p>
+					<ul class="prolist">
+					<volist name="list" id="vo">
+					
+						<li>
+							<a href="__APP__/Product/pro_details/id/{$vo.id}"><img src="{$vo.pro_img}" alt="" /></a>
+							<div class="text">
+								<h4><a href="__APP__/Product/pro_details/id/{$vo.id}">{$vo.pro_name}</a></h4>
+								<p>{$vo.description|msubstr=0,100,'utf-8',true}</p>
+								<a href="__APP__/Product/pro_details/id/{$vo.id}">了解更多</a>
+							</div>
+						</li>
+					</volist>						
+					</ul>	
+									
+					<div class="page">
+					 {$page}																		  					    
+					</div>
+				</div>
+			</div>			
+		</div>
+	

@@ -1,0 +1,60 @@
+*{color: #666666;}
+.content{background: #f5f5f5;padding-top: 67px;padding-bottom: 60px;}
+.content .ng{background: white;}
+.content h3{font-size: 30px;text-align: center;font-weight: normal;border-bottom: 1px solid #879D17;margin: 4px 10px;line-height: 60px;}
+.content .bottom{margin: 20px 26px 0 26px;;}
+.content .bottom .center{margin-top: 0;border: 1px solid #CCCCCC;padding: 5px;margin-left: 40px;}
+.content .bottom ul{margin-left: 14px;}
+.content .bottom>p{margin: 0 20px;}
+.content .bottom li{padding: 20px 0;width: auto;}
+.content .bottom li div{float: left;margin:0 30px;margin-top: 40px;}
+.content .bottom li div.btn{}
+.content .bottom li div.btn input{width: 20px;height: 20px;vertical-align: middle;opacity: 0;}
+.content .bottom li div.btn label{background: url(../img/shop/check1.png) no-repeat;vertical-align: middle;margin-left: 5px;display: inline-block;}
+.content .bottom li div.img{margin-top: 0;margin-left: 0px;width: 230px;margin-right: 0;}
+.content .bottom li div.img img{float: left;}
+.content .bottom li div.img p{float: left;margin-top: 40px;margin-left: 10px;}
+.content .bottom li div.img p a{color: ;}
+.content .bottom li div.name{width: 140px;}
+.content .bottom li div.name a{font-size: 18px;}
+.content .bottom li div.num p{color: #999999;}
+.content .bottom li div.price{width: 100px;text-align: center;}
+.content .bottom li div.price p{color: #999999;font-size: 18px;}
+.content .bottom li div.num{width: 40px;}
+.content .bottom li div.num p{text-align: center;}
+.content .bottom li div.tolpri{width: 140px;text-align: center;color: #999999;}
+.content .bottom li div .zhe{color: #999999;}
+.content .bottom>p{margin-bottom: 15px;}
+.content .bottom>p span{font-size: 18px;}
+.content .bottom>p span.allche{display: inline-block;width: 20px;height: 20px;background: url(../img/shop/check1.png) no-repeat;text-align: center;vertical-align: middle;margin-left: 30px;margin-right: 12px;}
+.content .bottom>p label{cursor: pointer;font-size: 18px;vertical-align: bottom;}
+.content .bottom>p span.allche input{width: 20px;height: 20px;vertical-align: top;opacity: 0;}
+.content .bottom>p span.name{display: inline-block;width: 182px;text-align: right;}
+.content .bottom>p span.price{display: inline-block;width: 205px;text-align: right;}
+.content .bottom>p span.tolpri{display: inline-block;width: 181px;text-align: right;}
+.content .bottom>p span.zhe{text-align: right;display: inline-block;width: 108px;}
+.content .bottom>p span.num{text-align: right;display: inline-block;width: 90px;}
+.content .bottom>p span i{font-style: normal;color: #879D17;font-size: 18px;}
+.content .bottom>p span.del{display: inline-block;width: 108px;text-align: right;}
+.content .bottom li:after{content: "";display: block;clear: both;}
+.content .bottom li:last-of-type{border: none;}
+
+.content .ng{text-align: center;}
+.content .ng .page ul{display: inline-block;*display: inline;zoom: 1;vertical-align: bottom;margin-bottom: 30px;margin-top: 40px;}
+.content .ng .page li{float: left;}
+.content .ng .page li a{display: block;padding: 3px 10px;font-size: 18px;color: #879D17;border: 1px solid #879D17;margin: 0 14px;}
+.content .ng .page li a.on{background: #879D17;color: white;}
+.content .ng .page li:hover a{background: #879D17;color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+

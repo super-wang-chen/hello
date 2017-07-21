@@ -1,0 +1,73 @@
+<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Home/Common/css/index.css"/>
+        <title>首页</title>
+		<!-- content部分开始 -->
+		<div class="content">
+			<div class="product">
+				<div class="title">
+					<h3>产品首推</h3>
+					<h4>怀素堂花草茶</h3>
+				</div>
+				<div class="pro">
+					<ul>
+					   <volist name='banner_pro' id='vo'>
+						<li><a href="__APP__/Product/pro_details/id/{$vo.id}"><img src="{$vo.pro_img}"/></a><div><h3><a href="__APP__/Product/pro_details/id/{$vo.id}">{$vo.pro_name}</a></h3><p>{$vo.description|msubstr=0,20,'utf-8',false}</p></div></li>
+                       </volist>
+					</ul>
+					<a href="javascript:;" class="left"><</a>
+					<a href="javascript:;" class="right">></a>
+				</div>
+				<a href="__APP__/Product/index" class="buy">点击抢购</a>
+			</div>
+			<div class="contact">			        
+				<img src="__ROOT__/Application/Home/Home/Common/img/index/pro4.jpg"/>
+				<img src="__ROOT__/Application/Home/Home/Common/img/index/peo1.png" alt="" />
+				<div class="mg">
+					<h3>{$indexData.title}</h3>
+					<p>{$indexData.content|msubstr=0,100,'utf-8',false}</p>
+					<a href="__APP__/Contact/index">在线咨询</a>
+				</div>
+			</div>
+			<div class="prolist">
+				<div class="title">
+					<h3>茶品系列</h3>
+					<h4>怀素堂花草茶</h3>
+					<img src="__ROOT__/Application/Home/Home/Common/img/index/bg1.png" class="bg"/>
+				</div>
+				<div class="mg">
+					<ul>
+					 <volist name="info" id="v">
+						<li>
+							<div>
+							   
+								<p><a href="__APP__/Product/pro_details/id/{$v.id}">{$v.name}</a></p>
+								
+							<a href="__APP__/Product/pro_details/id/{$v.id}"><img src="{$v.pro_img}"/></a>
+							</div>
+							<a href="__APP__/Product/pro_details/id/{$v.id}" class="click">点击进入</a>
+						</li>
+					</volist>
+
+					</ul>
+				</div>
+			</div>
+			<div class="brand">
+				<div class="title">
+					<h3>品牌介绍</h3>
+					<h4>怀素堂花草茶</h3>
+				</div>
+				<ul>
+				
+				    <volist name="brandArr"  id="val">
+					<li><a href="__APP__/Brand/index/id/{$val.id}"><img src="{$val.image}"/></a>
+						<div>
+							<h3><a href="__APP__/Brand/index/id/{$val.id}"></a></h3>
+							<p>{$val.content|msubstr=0,100,'utf-8',false}</p>
+							<a href="__APP__/Brand/index/id/{$val.id}">了解更多</a>
+						</div>
+					</li>
+					</volist>
+
+				</ul>
+			</div>	
+		</div>
+		<!-- content部分结束 -->

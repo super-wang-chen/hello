@@ -1,0 +1,44 @@
+		<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Home/Common/css/news_details.css"/>
+		<title>新闻详情</title>
+		<div class="content">
+			<h2>{$info.title}</h2>
+			<h3>发布时间：<span>{$info.time}</span>&nbsp;&nbsp;|&nbsp;&nbsp;浏览过：<span>1920</span></h3>
+			<div class="mg">
+				<p>当前位置：<a href="__APP__/Index/index">首页</a>><a href="__APP__/News/index">新闻中心><a href="#" class="on">新闻资讯</a></p>
+				<img style="width:1126px;height:509px" src="{$info.image}" alt="" />
+				<h3>“怀素堂”</h3>
+				<p>2008年8月“怀素堂”导入国际连锁管理模式，以专卖店的形式引入市场，同年9月怀素堂生活馆商标通过国家商标局受理。2008年10月怀<br />素堂与北京药用植物园达成全面合作协议，携手权威机构，结合现代生产工艺与技术，运用“怀素堂”古老配方，率先建立起<br />国家标准化中国花草生活馆模式，将天然的花草融入现代女性的时尚生活，让时尚女性畅<br />享风靡全球的花草生活方式。</p>
+<!-- 				<object type="application/x-shockwave-flash" data="http://static.youku.com/v1.0.0657/v/swf/player_yknpsv.swf" width="556" height="510" id="movie_player">
+					<param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always">
+					<param name="allowFullScreenInteractive" value="true">
+					<param name="wmode" value="direct">
+					<param name="bgcolor" value="#000000">
+					<param name="flashvars" value="VideoIDS=XMTczOTY5NDU4OA==&amp;ShowId=0&amp;category=91&amp;Cp=0&amp;sv=true&amp;Light=on&amp;THX=off&amp;unCookie=0&amp;frame=0&amp;pvid=1474988949252GwgzyM&amp;uepflag=0&amp;Tid=0&amp;isAutoPlay=false&amp;Version=/v1.0.170&amp;show_ce=0&amp;winType=interior&amp;Type=Folder&amp;Fid=28251439&amp;Pt=0&amp;Ob=1&amp;plchid=&amp;playmode=2&amp;embedid=AjQzNDkyMzY0NwJ3d3cueW91a3UuY29tAi8=&amp;ysuid=1474730148924GNP&amp;vext=bc%3D%26pid%3D1474988949252GwgzyM%26unCookie%3D0%26frame%3D0%26type%3D1%26fob%3D1%26fpo%3D0%26svt%3D0%26cna%3Djh1sEMl%2BTAQCATspXZnKYNqn%26emb%3DAjQzNDkyMzY0NwJ3d3cueW91a3UuY29tAi8%3D%26dn%3D%E7%BD%91%E9%A1%B5%26hwc%3D1%26mtype%3Doth&amp;cna=jh1sEMl+TAQCATspXZnKYNqn&amp;pageStartTime=1474988949251">
+					<param name="movie" value="http://static.youku.com/v1.0.0657/v/swf/player_yknpsv.swf">
+					<div class="player_html5">
+						<div class="picture" style="height:100%">
+							<div style="line-height:460px;">
+								<span style="font-size:18px">您还没有安装flash播放器,请点击<a href="http://www.adobe.com/go/getflash" target="_blank">这里</a>安装</span>
+							</div>
+						</div>
+					</div>
+				</object>  -->
+			  <video width="556" height="450" controls="controls" autoplay="autoplay">
+				  <source src="{$img}" type="video/mp4">
+				  <source src="{$img}" type="video/mp4">
+				   Your browser does not support the video tag.
+			  </video>
+				<div class="fr">					
+					<p>{$info.content}</p>
+				</div>
+				<div class="page">
+				<if condition="$prev['id']">
+				<a href="{:U('News/news_details','id='.$prev['id'])}">上一篇</a>
+				</if>
+				<a href="javascript:history.back();">返回</a>
+				<if condition="$next['id']">
+				<a href="{:U('News/news_details','id='.$next['id'])}">下一篇</a>
+				</if>
+				</div>
+			</div>
+		</div>

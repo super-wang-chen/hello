@@ -1,0 +1,38 @@
+.content{padding: 67px 0;background: #f5f5f5;}
+.order .mg{width: 1160px;padding: 0 20px;}
+.order .sidebar{float: left;}
+.order .sidebar ul li{width: 180px;height: 60px;text-align: center;line-height: 60px;background:#879d17 url(../img/order/bottom.png) no-repeat left 40px center;}
+.order .sidebar ul li:first-child+li+li a{padding-left: 20px;}
+.order .sidebar ul li a{color: white;font-size: 18px;padding-left: 22px;}
+.order .sidebar ul li.on a{color: #879D17;display: block;}
+.order .sidebar ul li.on{background: white url(../img/order/right2.png) no-repeat left 40px center;color: #879D17;}
+.order .sidebar ul li:hover a{color: #879D17;display: block;}
+.order .sidebar ul li:hover{background: white url(../img/order/right2.png) no-repeat left 40px center;color: #879D17;}
+.order .main{background: white;float: left;width: 926px;margin-left: 10px;box-sizing: border-box;padding: 60px 50px;}
+.order .main h3{border-bottom: 1px solid #879D17;}
+.order .main>img{float: right;margin-top: 20px;margin-right: 88px;}
+.order .main li:after{content: "";display: block;width: 0;height: 0;clear: both;overflow: hidden;}
+.order .main ul{clear: both;}
+.order .main ul li{padding: 15px 0;border-bottom: 1px solid #eaeaea;margin: 0 50px;}
+.order .main ul li>div{float: left;margin: 0 17px;margin-top: 50px;}
+.order .main ul li>div p{color: #999999;}
+.order .main ul li .first img{display: inline;vertical-align:middle;}
+.order .main ul li .first input{vertical-align: middle;width: 20px;height: 20px;border: 1px solid #666666;color: #a1a1a1;text-align: center;line-height: 20px;padding: 0;}
+.order .main ul li .first{margin-left: -50px;margin-top: 50px;margin-right: 20px;}
+.order .main ul li .img{margin-top: 5px;}
+.order .main ul li .date p{text-align: center;}
+.order .main ul li .name p{text-align: center;}
+.order .main ul li .name p a{color: #666666;}
+.order .main ul li .come{margin-top: 52px;}
+.order .main ul li .come a{color: white;background: #879D17;width: 70px;height: 20px;text-align: center;line-height: 20px;display: block;}
+.order .main ul li .last label{width: 20px;height: 20px;display: block;background: url(../img/shop/check1.png) no-repeat;vertical-align: top;}
+.order .main ul li .last input{width: 20px;height: 20px;vertical-align: top;opacity: 0;}
+.order .main a.pay{width: 100px;height: 34px;display: block;float: right;margin-right: 125px;background: #879D17;color: white;text-align: center;line-height: 34px;margin-top: 20px;}
+
+.order .main .page{border-top-width: 21px; padding-top: 46px; padding-left: 150px;}
+.order .main .page a{float: left;font-size: 18px;display: block;padding: 3px 10px;font-size: 18px;color: #879D17;border: 1px solid #879D17;margin: 0 14px;}
+.order .main .page span{float: left;font-size: 18px;display: block;padding: 3px 10px;font-size: 18px;color: #879D17;border: 1px solid #879D17;margin: 0 14px;}
+.order .main .page .current{background: #879D17;color: white;}
+.order .main .page a:hover{background: #879D17;color: white;}
+
+

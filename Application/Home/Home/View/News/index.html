@@ -1,0 +1,29 @@
+	
+		<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Home/Common/css/news.css"/>
+		<title>新闻中心</title>
+		<div class="content">
+			<h2><span>新闻资讯</span></h2>
+			<div class="mg">
+				<p>当前位置：<a href="__APP__/Index/index">首页</a>><a href="__APP__/News/index">新闻中心><a href="###" class="on">新闻资讯</a></p>
+				<ul>
+				<volist name='list' id='vo'>
+					<li>
+						<div class="fl">
+							<img style="width:200px;height:200px" src="{$vo.image}" alt="" />
+							<div>
+								<a href="__APP__/News/news_details/id/{$vo.id}">了解详情</a>
+							</div>
+						</div>
+						<div class="fr">
+							<h3><a href="__APP__/News/news_details/id/{$vo.id}">{$vo.title}<span>{$vo.time|date="Y-m-d",###}</span></a></h3>
+							<p>{$vo.content|msubstr=0,100,'utf-8',true}</p>
+						</div>
+					</li>
+				</volist>	
+				</ul>
+				<ol>
+				 {$page}
+				</ol>				                                   				
+			</div>
+		</div>
+	

@@ -1,0 +1,1335 @@
+[ 2017-06-19T19:15:52+08:00 ] ::1 /tp2/admin.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-06-19T19:15:52+08:00 ] ::1 /tp2/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2017-06-19T19:15:53+08:00 ] ::1 /tp2/admin.php/Index/VerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-06-19T19:15:53+08:00 ] ::1 /tp2/admin.php/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-06-19T19:15:53+08:00 ] ::1 /tp2/admin.php/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-06-19T19:16:14+08:00 ] ::1 /tp2/admin.php/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.1239s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-06-19T19:16:18+08:00 ] ::1 /tp2/admin.php/Index/VerifyCode?0.12970512703183634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2017-06-19T19:16:25+08:00 ] ::1 /tp2/admin.php/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-19T19:16:27+08:00 ] ::1 /tp2/admin.php/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-19T19:16:38+08:00 ] ::1 /tp2/admin.php/Index/VerifyCode?0.12970512703183634&random=0.7054319614638592
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-06-19T19:16:44+08:00 ] ::1 /tp2/admin.php/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-06-19T19:17:10+08:00 ] ::1 /tp2/admin.php/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin001' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-06-19T19:17:12+08:00 ] ::1 /tp2/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin001' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_level` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `think_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-19T19:17:13+08:00 ] ::1 /tp2/admin.php/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'admin001' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-06-19T19:17:13+08:00 ] ::1 /tp2/admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001721s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016376s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017255s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.059741s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038131s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056425s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003022s ]
+
+[ 2017-06-19T19:17:14+08:00 ] ::1 /tp2/admin.php/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-06-19T19:17:14+08:00 ] ::1 /tp2/admin.php/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-06-19T19:17:38+08:00 ] ::1 /tp2/admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2017-06-19T19:17:38+08:00 ] ::1 /tp2/admin.php/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-06-19T19:17:38+08:00 ] ::1 /tp2/admin.php/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-06-19T19:17:38+08:00 ] ::1 /tp2/admin.php/Index/VerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-06-19T19:18:24+08:00 ] ::1 /tp2/admin.php/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'yzj' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-19T19:18:25+08:00 ] ::1 /tp2/admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `think_admin` WHERE `username` = 'yzj' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_level` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `think_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-19T19:18:25+08:00 ] ::1 /tp2/admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006783s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006252s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006697s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006803s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013936s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-06-19T19:18:25+08:00 ] ::1 /tp2/admin.php/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-06-19T19:18:25+08:00 ] ::1 /tp2/admin.php/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-06-19T19:18:36+08:00 ] ::1 /tp2/admin.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `think_level` [ RunTime:0.0178s ]
+SQL: SELECT Admin.id AS id,Admin.username AS username,Admin.password AS password,Admin.e_mail AS e_mail,Admin.level AS level,Level.name AS name FROM think_admin Admin  JOIN think_level Level ON Admin.level=Level.id ORDER BY Admin.id DESC  [ RunTime:0.0556s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020107s ]
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\eee7d97f8328332523786ca8cd94a076.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017128s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017828s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033793s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009819s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.028163s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-06-19T19:18:36+08:00 ] ::1 /tp2/admin.php/Admin/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-06-19T19:18:36+08:00 ] ::1 /tp2/admin.php/Admin/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-06-19T19:18:41+08:00 ] ::1 /tp2/admin.php/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_product` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0077s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT Product.id AS id,Product.pro_name AS pro_name,Product.market_price AS market_price,Product.shop_price AS shop_price,Product.pro_num AS pro_num,Product.pro_cate AS pro_cate,Product.description AS description,Product.pro_img AS pro_img,Product.img_path AS img_path,Product.pro_time AS pro_time,Category.name AS name FROM think_product Product  JOIN think_category Category ON Product.pro_cate=Category.id ORDER BY Product.id DESC LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009783s ]
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008962s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009863s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005651s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.010886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015933s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-06-19T19:18:41+08:00 ] ::1 /tp2/admin.php/Product/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-06-19T19:18:41+08:00 ] ::1 /tp2/admin.php/Product/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-06-19T19:18:46+08:00 ] ::1 /tp2/admin.php/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_product` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0099s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT Product.id AS id,Product.pro_name AS pro_name,Product.market_price AS market_price,Product.shop_price AS shop_price,Product.pro_num AS pro_num,Product.pro_cate AS pro_cate,Product.description AS description,Product.pro_img AS pro_img,Product.img_path AS img_path,Product.pro_time AS pro_time,Category.name AS name FROM think_product Product  JOIN think_category Category ON Product.pro_cate=Category.id ORDER BY Product.id DESC LIMIT 5,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013940s ]
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011699s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012250s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005926s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.013502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018728s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-06-19T19:18:47+08:00 ] ::1 /tp2/admin.php/Product/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-06-19T19:18:47+08:00 ] ::1 /tp2/admin.php/Product/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-06-19T19:18:50+08:00 ] ::1 /tp2/admin.php/Product/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.1169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_product` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0257s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0254s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT Product.id AS id,Product.pro_name AS pro_name,Product.market_price AS market_price,Product.shop_price AS shop_price,Product.pro_num AS pro_num,Product.pro_cate AS pro_cate,Product.description AS description,Product.pro_img AS pro_img,Product.img_path AS img_path,Product.pro_time AS pro_time,Category.name AS name FROM think_product Product  JOIN think_category Category ON Product.pro_cate=Category.id ORDER BY Product.id DESC LIMIT 10,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.029978s ]
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027241s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.028319s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.054327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017447s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.031446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.047229s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2017-06-19T19:18:50+08:00 ] ::1 /tp2/admin.php/Product/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-06-19T19:18:50+08:00 ] ::1 /tp2/admin.php/Product/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+
+[ 2017-06-19T19:18:53+08:00 ] ::1 /tp2/admin.php/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_product` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0112s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT Product.id AS id,Product.pro_name AS pro_name,Product.market_price AS market_price,Product.shop_price AS shop_price,Product.pro_num AS pro_num,Product.pro_cate AS pro_cate,Product.description AS description,Product.pro_img AS pro_img,Product.img_path AS img_path,Product.pro_time AS pro_time,Category.name AS name FROM think_product Product  JOIN think_category Category ON Product.pro_cate=Category.id ORDER BY Product.id DESC LIMIT 5,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008447s ]
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010231s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010608s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004780s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015837s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-06-19T19:18:53+08:00 ] ::1 /tp2/admin.php/Product/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-06-19T19:18:53+08:00 ] ::1 /tp2/admin.php/Product/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-06-19T19:18:56+08:00 ] ::1 /tp2/admin.php/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_product` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_product` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0279s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT Product.id AS id,Product.pro_name AS pro_name,Product.market_price AS market_price,Product.shop_price AS shop_price,Product.pro_num AS pro_num,Product.pro_cate AS pro_cate,Product.description AS description,Product.pro_img AS pro_img,Product.img_path AS img_path,Product.pro_time AS pro_time,Category.name AS name FROM think_product Product  JOIN think_category Category ON Product.pro_cate=Category.id ORDER BY Product.id DESC LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.028795s ]
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+NOTIC: [8] Use of undefined constant pro_img - assumed 'pro_img' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\b41d90d39c5b7a2d9dc25a69a2ce6f78.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028427s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.029568s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.053854s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014641s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.032179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045190s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-06-19T19:18:57+08:00 ] ::1 /tp2/admin.php/Product/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-06-19T19:18:57+08:00 ] ::1 /tp2/admin.php/Product/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-06-19T19:19:04+08:00 ] ::1 /tp2/admin.php/Level/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `think_level` [ RunTime:0.0679s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_level` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2] Creating default object from empty value D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\LevelModel.class.php 第 13 行.
+SQL: SELECT * FROM `think_level` ORDER BY id DESC LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.044006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012058s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.034610s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.054215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006862s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.042044s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-06-19T19:19:04+08:00 ] ::1 /tp2/admin.php/Level/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-06-19T19:19:04+08:00 ] ::1 /tp2/admin.php/Level/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-06-19T19:36:58+08:00 ] ::1 /tp2/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::delete() should be compatible with Think\Model::delete($options = Array) D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\NewsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0234s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT News.id AS id,News.category AS category,News.title AS title,News.time AS time,News.author AS author,News.image AS image,News.img_path AS img_path,Category.name AS name FROM think_news News  JOIN think_category Category ON News.category=Category.id ORDER BY News.id DESC LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.184314s ]
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024506s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.155493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.179098s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.190424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004474s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.180352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.183919s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-06-19T19:36:58+08:00 ] ::1 /tp2/admin.php/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-06-19T19:36:58+08:00 ] ::1 /tp2/admin.php/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-06-19T19:37:06+08:00 ] ::1 /tp2/admin.php/News/update/id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::delete() should be compatible with Think\Model::delete($options = Array) D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\NewsModel.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `think_category`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.041840s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Undefined index: image[] D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035698s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.036712s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.048490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004604s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.038374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.041772s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2017-06-19T19:37:06+08:00 ] ::1 /tp2/admin.php/News/update/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-06-19T19:37:06+08:00 ] ::1 /tp2/admin.php/News/update/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-06-19T19:37:28+08:00 ] ::1 /tp2/admin.php/News/update/id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.1063s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::delete() should be compatible with Think\Model::delete($options = Array) D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\NewsModel.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `think_news` SET `title`='dasdasd',`author`='sadfsafdasd',`category`='8',`content`='sadfsa',`id`='22',`img_path`='./Public/Uploads/2017-06-19/',`image`='5862776b10a6e.jpg5947b77880280.jpg|' WHERE `id` = 22 [ RunTime:0.0635s ]
+
+[ 2017-06-19T19:37:30+08:00 ] ::1 /tp2/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002215s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::delete() should be compatible with Think\Model::delete($options = Array) D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\NewsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.1062s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0085s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT News.id AS id,News.category AS category,News.title AS title,News.time AS time,News.author AS author,News.image AS image,News.img_path AS img_path,Category.name AS name FROM think_news News  JOIN think_category Category ON News.category=Category.id ORDER BY News.id DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006579s ]
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005610s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005931s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004503s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.006947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011052s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-06-19T19:37:30+08:00 ] ::1 /tp2/admin.php/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-06-19T19:37:30+08:00 ] ::1 /tp2/admin.php/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-06-19T19:40:26+08:00 ] ::1 /tp2/admin.php/News/delete/id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0921s ]
+SQL: DELETE FROM `think_news` WHERE `id` = 22 [ RunTime:0.0858s ]
+
+[ 2017-06-19T19:40:27+08:00 ] ::1 /tp2/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::delete() should be compatible with Think\Model::delete($options = Array) D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\NewsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0746s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0264s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT News.id AS id,News.category AS category,News.title AS title,News.time AS time,News.author AS author,News.image AS image,News.img_path AS img_path,Category.name AS name FROM think_news News  JOIN think_category Category ON News.category=Category.id ORDER BY News.id DESC LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014507s ]
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013488s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014172s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025842s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006752s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.015722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021528s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-06-19T19:40:28+08:00 ] ::1 /tp2/admin.php/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-06-19T19:40:28+08:00 ] ::1 /tp2/admin.php/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-06-19T19:40:35+08:00 ] ::1 /tp2/admin.php/News/update/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0857s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::delete() should be compatible with Think\Model::delete($options = Array) D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\NewsModel.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `think_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009852s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Use of undefined constant category - assumed 'category' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 30 行.
+NOTIC: [8] Undefined index: image[] D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\cd7242000ad6ce4d63b32e2d7e39287b.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008624s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008987s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005375s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014818s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-06-19T19:40:36+08:00 ] ::1 /tp2/admin.php/News/update/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-06-19T19:40:36+08:00 ] ::1 /tp2/admin.php/News/update/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-06-19T19:40:48+08:00 ] ::1 /tp2/admin.php/News/update/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.1191s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::delete() should be compatible with Think\Model::delete($options = Array) D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\NewsModel.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `think_news` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `think_news` SET `title`='asdfsf',`author`='asfdsf',`category`='7',`content`='sadfasfsd',`id`='23',`img_path`='./Public/Uploads/2017-06-19/',`image`='586277f72696f.jpg5947b8402880e.jpg|' WHERE `id` = 23 [ RunTime:0.0549s ]
+
+[ 2017-06-19T19:40:49+08:00 ] ::1 /tp2/admin.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2048] Declaration of Admin\Model\NewsModel::delete() should be compatible with Think\Model::delete($options = Array) D:\phpStudy\WWW\tp2\Application\Admin\Admin\Model\NewsModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `think_category` [ RunTime:0.0266s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT News.id AS id,News.category AS category,News.title AS title,News.time AS time,News.author AS author,News.image AS image,News.img_path AS img_path,Category.name AS name FROM think_news News  JOIN think_category Category ON News.category=Category.id ORDER BY News.id DESC LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012763s ]
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' D:\phpStudy\WWW\tp2\Application\Admin\Runtime\Cache\Admin\94ba8e4a6c950dbe28f9bccb2a1f764b.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010300s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011089s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.022911s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010176s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.012478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021858s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php:95) D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-06-19T19:40:50+08:00 ] ::1 /tp2/admin.php/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-06-19T19:40:50+08:00 ] ::1 /tp2/admin.php/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-06-19T19:44:02+08:00 ] ::1 /tp2/admin.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Admin/Admin/View/Admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\tp2\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-06-19T19:44:02+08:00 ] ::1 /tp2/admin.php/Index/VerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-06-19T19:44:02+08:00 ] ::1 /tp2/admin.php/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-06-19T19:44:02+08:00 ] ::1 /tp2/admin.php/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+

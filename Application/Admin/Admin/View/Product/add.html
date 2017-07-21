@@ -1,0 +1,78 @@
+   <script type="text/javascript" src="__ROOT__/Application/Admin/Admin/Common/resources/scripts/jquery.validate.js"></script>
+<script type="text/javascript" src="__ROOT__/Application/Admin/Admin/Common/resources/scripts/proCheck.js"></script>
+   
+
+    <div class="content-box">
+      <!-- Start Content Box -->
+      <div class="content-box-header">
+        <h3>Content box</h3>
+        <ul class="content-box-tabs">
+          
+          <!-- href must be unique and match the id of target div -->
+          <li><a href="#tab2" class="default-tab">Forms</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <!-- End .content-box-header -->
+      <div class="content-box-content">   
+        <div class="tab-content default-tab" id="tab2">
+          <form action="" id="basic_validate" method="post" enctype="multipart/form-data" name="basic_validate">
+            <fieldset>
+            <!-- Set class to "column-left" or "column-right" on fieldsets to divide the form into columns -->
+            <p>
+              <label>产品名称</label>
+              <input  class="text-input small-input" type="text" id="pro_name" name="pro_name" />
+            <p>
+              <label>市场价格</label>
+              <input  class="text-input small-input" type="text" id="market_price" name="market_price" />
+            <p>
+              <label>商城价格</label>
+              <input class="text-input small-input" type="text" id="shop_price" name="shop_price" />
+            </p>
+            <p>
+              <label>产品数量</label>
+              <input  class="text-input small-input" type="text" id="pro_num" name="pro_num" />
+            </p>
+            <p>
+              <label>产品分类</label>
+              <select name="pro_cate" >
+                <option value="0">请选择分类</option>
+                <foreach name="list" item='vo'>
+                <if condition="$vo.pid eq 1">
+                <option value="{$vo.id}">{$vo.fullname}</option>
+                </if>
+                </foreach>                                
+              </select>
+            </p>
+            <p>
+              <label>产品描述</label>
+              <textarea class="text-input textarea wysiwyg" id="textarea" name="textfield" cols="79" rows="15"></textarea>
+            </p>
+            <p>
+              <label>产品图片</label>
+             <span>
+              <span id="add">[+]</span><input  type="file" name="pro_img[]" /><br/>
+             </span>            
+            </p>            
+            <p>
+              <input class="button" type="submit" value="Submit" />
+            </p>
+            </fieldset>
+            <div class="clear"></div>
+            <!-- End .clear -->
+          </form>
+        </div>
+        <!-- End #tab2 -->
+      </div>
+      <!-- End .content-box-content -->
+    </div>
+    <!-- End .content-box -->
+    
+    <!-- 错误提示样式 -->
+    <style>
+      .help-inline{margin-left:5px;font-size:12px;color:red;}
+    </style>
+    
+    
+    
+    

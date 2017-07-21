@@ -1,0 +1,41 @@
+.content h2{text-align: center;margin: 60px auto;}
+.content h2 span{font-size: 30px;font-weight: normal;text-align: center;border-top:1px solid #879D17;border-bottom: 1px solid #879D17;display: inline-block;line-height:56px;padding: 0 30px;}
+.content p:first-child{border-bottom: 1px solid #879D17;padding-left: 10px;text-align: left;}
+.content p a.on{color: #879d17;}
+.content p:first-child a:hover{color: #879D17;}
+
+.content .mg ul{padding: 40px 135px;border-bottom: 1px solid #879D17;}
+.content .mg ul li{margin-bottom: 66px;clear: both;overflow: hidden;}
+.content .mg ul li .fl:hover div{display: block;}
+.content .mg ul li .fl{position: relative;width: 200px;}
+.content .mg ul li .fl>div{position: absolute;width: 100%;height: 100%;background: rgba(0,0,0,0.5);top: 0;left: 0;z-index: 10;display: none;}
+.content .mg ul li .fl>div a{width: 100px;height: 40px;position: absolute;margin: 0 auto;z-index: 100;color: white;border: 1px solid white;text-align: center;line-height: 40px;left: 50%;top: 50%;margin-left: -50px;margin-top: -20px;}
+.content .mg ul li .fr{width: 650px;}
+.content .mg ul li h3{text-align: left;margin-top: 30px;margin-bottom: 25px;}
+.content .mg ul li h3 a{font-size: 18px;color: #879d17;font-weight: normal;text-align: left;}
+.content .mg ul li h3 span{float: right;font-size: 18px;color: #333333;}
+.content .mg ul li p{width: 653px;text-align: left;} 
+.content .mg{text-align: center;padding-bottom: 100px;}
+
+/* 新闻分页 */
+/* .content .mg ol{margin-top: 40px;clear: both;overflow: hidden;display: inline-block;}
+.content .mg ol li{float: left;}
+.content .mg ol li a{display: block;padding: 3px 10px;font-size: 18px;color: #879D17;border: 1px solid #879D17;margin: 0 14px;}
+.content .mg ol li a.on{background: #879D17;color: white;}
+.content .mg ol li:hover a{background: #879D17;color: white;} */
+
+.content .mg ol{margin-top: 40px;clear: both;overflow: hidden;display: inline-block;}
+.content .mg ol a{float: left;font-size: 18px;display: block;padding: 3px 10px;font-size: 18px;color: #879D17;border: 1px solid #879D17;margin: 0 14px;}
+.content .mg ol span{float: left;font-size: 18px;display: block;padding: 3px 10px;font-size: 18px;color: #879D17;border: 1px solid #879D17;margin: 0 14px;}
+.content .mg ol .current{background: #879D17;color: white;}
+.content .mg ol a:hover{background: #879D17;color: white;}
+
+
+
+
+
+
+
+
+
+

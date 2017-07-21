@@ -1,0 +1,30 @@
+.content{background: #f5f5f5;padding-top: 50px;padding-bottom: 70px;}
+.content .ng{background: white;padding-bottom: 20px;}
+.content .ng h3{font-size: 30px;text-align: center;margin: 20px 10px;border-bottom: 1px solid #879D17;font-weight: normal;line-height: 54px;}
+.content .ng form{width: 641px;margin-top: 10px;float: left;}
+.content .ng form p{width: 465px;text-align: right;margin-bottom: 15px;}
+.content .ng form p input{width: 300px;height: 50px;border: 1px solid #879D17;margin-left: 8px;}
+.content .ng form select{background: url(../img/login/sel.png) no-repeat right 3px center;width: 100px;height: 32px;border: 1px solid #879D17;appearance: none;-webkit-appearance: none;-moz-animation:none;}
+.content .ng form select:first-of-type{margin-left: 156px;}
+.content .ng form>input{width: 100px;height: 32px;border: 1px solid #879D17;border-right: none;line-height: 32px;vertical-align: middle;margin-left: 156px;margin-top: 15px;}
+.content .ng form>img{width: 89px;height: 32px;overflow: hidden;display: inline-block;vertical-align: middle;border: 1px solid #879D17;border-left: none;margin-top: 15px;cursor: pointer;}
+.content .ng form>p.change{text-align: left;padding-left: 156px;margin-top: 15px;}
+.content .ng .right{float: left;width: 350px;text-align: center;}
+.content .ng .right ul{display: inline-block;*display: inline;zoom: 1;}
+.content .ng .right ul li{float: left;margin: 0 10px;}
+.content .ng .right img{margin: 30px auto 20px auto;}
+.content .ng .ov{text-align: right;width: auto;padding-right: 25px;}
+.content .ng .ov span{width: 20px;height:20px;background: url(../img/shop/check1.png) no-repeat;vertical-align: middle;line-height: 18px;display: inline-block;}
+.content .ng .ov input{vertical-align: middle;width: 20px;height: 20px;opacity: 0;}
+.content .ng .ov label{vertical-align: middle;cursor: pointer;margin-left: 10px;}
+.content .ng input[type="submit"]{width: 100px;height: 35px;background: #879D17;color: white;text-align: center;line-height: 30px;margin: 0 auto;display: block;clear: both;border: none;}
+
+
+
+
+
+
+
+
+
+

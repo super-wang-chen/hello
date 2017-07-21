@@ -1,0 +1,33 @@
+.content{background: #f5f5f5;padding-top: 50px;padding-bottom: 70px;}
+.content .ng{background: white;padding-bottom: 20px;}
+.content .ng .top{margin: 0 auto;margin-top: 30px;clear: both;width: 833px;}
+.content .ng .top ul{clear: both;overflow: hidden;background: url(../img/shop/bg1.png) no-repeat center center;}
+.content .ng .top li{float: left;}
+.content .ng .top li img{margin: 0 auto;}
+.content .ng .top li:first-child +li{margin: 0 292px;}
+.content .ng .top li p{text-align: center;font-size: 18px;color: #879D17;}
+.content .ng .top li p a{color: #879D17;font-size: 18px;}
+.content .ng .top li a{cursor: default;}
+.content .ng .top li:first-child a{cursor: pointer;}
+.content .ng>ul{margin-top: 40px;}
+.content .ng>ul li{width: 912px;margin: 0 auto;padding: 0 30px 0 70px;box-sizing: border-box;border-bottom: 1px solid #CCCCCC;clear: both;overflow: hidden;padding-bottom: 20px;margin-bottom: 20px;pa}
+.content .ng>ul li img{float: left;}
+.content .ng>ul li p{float: left;line-height: 100px;width: 20%;text-align: center;color: #666666;text-align: right;}
+.content .ng>ul li .zhe{font-size: 18px;color: #999999;}
+.content .ng>ul li .price{font-size: 18px;color: #999999;}
+.content .ng>ul li .input a{display: inline-block;vertical-align: middle;margin: ;}
+.content .ng>ul li .input input{width: 22px;height: 22px;border: 1px solid #666666;line-height: 22px;text-align: center;padding: 0;vertical-align: middle;margin: 0 6px;color: #999999;}
+
+.content .ng form p:first-of-type{margin-left: 150px;}
+.content .ng form p{float: left;width: 165px;font-size: 18px;margin-right: 40px;}
+.content .ng form p input{width: 100px;height: 20px;line-height: 20px;}
+.content .ng form a:first-of-type{width: 20px;height: 20px;background: #879D17;color: white;font-size: 24px;text-align: center;line-height: 16px;display: inline-block;vertical-align: middle;}
+.content .ng form a:first-of-type+a{width: 50px;height: 18px;border: 1px solid #879D17;color: #879D17;display: inline-block;text-align: center;line-height: 18px;margin-left: 20px;}
+
+.content .ng p.pay{text-align: left;clear: both;margin-top: 20px;margin-left: 120px;font-size: 18px;margin-bottom: 30px;}
+.content .ng p.pay a.on{width: 80px;height: 24px;border: 1px solid #879D17;color: #879D17;text-align: center;display: inline-block;margin-right: 20px;vertical-align: middle;}
+.content .ng p.pay a:hover{color: #879D17;border: 1px solid #879D17;}
+.content .ng p.pay a{width: 80px;height: 24px;border: 1px solid #999999;color: #999999;text-align: center;line-height: 24px;display: inline-block;margin-right: 20px;vertical-align: middle;}
+.content .ng .tolpri{font-size: 24px;color: #879d17;margin-left: 210px;}
+.content .ng .tolpri i{font-size: 30px;color: #666666;font-style: normal;}
+.content .ng .pay input {width: 100px;height: 32px;line-height: 32px;text-align: center;background: #879D17;color: white;font-size: 18px;display: block;float: right;margin-right: 200px;}

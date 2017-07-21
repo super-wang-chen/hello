@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单</title>
+		<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Home/Common/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="__ROOT__/Application/Home/Home/Common/css/order.css"/>
+		<script src="__ROOT__/Application/Home/Home/Common/js/jquery-1.12.4.min.js"></script>
+		<script src="__ROOT__/Application/Home/Home/Common/js/base.js"></script>
+		<script src="__ROOT__/Application/Home/Home/Common/js/collection.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="mg">
+				<div class="logo fl">
+					<a href="index.html">
+						<img src="__ROOT__/Application/Home/Home/Common/img/common/logo.png" alt="" />
+					</a>
+				</div>
+
+				<div class="shopcar fr">
+					<a href="__APP__/Cart/index">购物车<img src="__ROOT__/Application/Home/Home/Common/img/common/car.png" alt="" /></a>
+				</div>
+				
+				<if condition="$_SESSION['vip_name'] eq ''"> 				
+					<div class="login fr">				
+					    <a href="__APP__/Login/login">登陆</a>/<a href="__APP__/Login/register">注册</a>
+					</div>					
+				    <else/>				
+					<div class="login fr">				
+					    <a href="__APP__/Login/login">欢迎您，<span style="color:red;">{$_SESSION['vip_name']}</span>!</a><a href="{:U('Login/LoginOut')}">&nbsp&nbsp退出</a>
+					</div>									
+				</if>
+				
+			</div>
+			<div class="nav">
+				<div class="mg">
+					<ul>
+						<li><a href="__APP__/Index/index">首页</a></li>
+						<li><a href="__APP__/Brand/index">品牌介绍</a></li>
+						<li><a href="__APP__/News/index">新闻中心</a></li>
+						<li><a href="__APP__/Product/index">产品中心</a></li>
+						<li><a href="__APP__/Contact/index">联系我们</a></li>
+						<li><a href="__APP__/User/index">会员中心</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content order">
+			<div class="mg">
+				<div class="sidebar">
+					<ul>
+						<li><a href="__APP__/User/data">个人资料</a></li>
+						<li class="on"><a href="__APP__/User/index">账号中心</a></li>
+						<li><a href="__APP__/Cart/index">购物车</a></li>							
+						<li><a href="__APP__/User/myorder">我的订单</a></li>
+						<li><a href="__APP__/Login/register">会员注册</a></li>
+					</ul>
+				</div>
+				<div class="main">
+					<h3>>&nbsp;全部订单</h3>
+					<!-- <img src="__ROOT__/Application/Home/Home/Common/img/collection/del.png"/> -->
+					<volist name="list" id="vo" >
+					<p>订单编号：{$vo.order_id}</p>
+										
+					<ul>
+					  	 <volist name="vo.product_info" id="vo1">				   
+						<li>
+							<div class="img">
+								<a href="__APP__/Product/pro_details/id/{$vo1.id}"><img style="width:101px; height:109px;" src="{$vo1.pro_img}" alt="" /></a>
+							</div>
+							<div class="name">
+								<p><a href="__APP__/Product/pro_details/id/{$vo1.id}">{$vo1.pro_name}</a></p>
+							</div>
+							<div class="date">
+								<p>{$vo.time}</p>
+								
+							</div>
+							<div class="price">
+								<p>¥{$vo1.total}</p>
+							</div>
+							<div class="pay">
+								<p>已支付</p>
+							</div>
+							<div class="come">
+								<a href="__APP__/User/myorder_details/id/{$vo.id}">进入查看</a>
+							</div>
+						</li>
+					    </volist>
+					</ul> 					
+					</volist>
+					<div class="page">{$page}</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	    <div class="footer">
+			<p>版权手有 © GSDGSHS怀素堂花草茶 HDIGFDGDGD UHF  ICU备12028918号</p>
+		</div>
+	</body>
+</html>

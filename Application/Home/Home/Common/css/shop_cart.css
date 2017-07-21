@@ -1,0 +1,56 @@
+*{color: #666666;}
+.content{background: #f5f5f5;padding-top: 67px;padding-bottom: 60px;}
+.content .ng{background: white;}
+.content .ng .top{margin: 30px auto 60px auto;clear: both;width: 833px;}
+.content .ng .top ul{clear: both;overflow: hidden;background: url(../img/shop/bg1.png) no-repeat center center;}
+.content .ng .top li{float: left;}
+.content .ng .top li img{margin: 0 auto;}
+.content .ng .top li:first-child +li{margin: 0 292px;}
+.content .ng .top li p{text-align: center;font-size: 18px;color: #879D17;}
+.content .ng .top li a{color: #879D17;font-size: 18px;}
+.content .ng .top li a{cursor: default;}
+.content .bottom{margin: 40px 86px 0 86px;clear: both;overflow: hidden;}
+.content .bottom ul{margin-top: 10px;margin-left: 64px;}
+.content .bottom>p{margin: 0 20px;}
+.content .bottom li{padding: 20px 0;border-bottom: 1px solid #CCCCCC;width: 817px;}
+.content .bottom li div{float: left;margin:0 20px;margin-top: 40px;}
+
+/* .content .bottom li div.btn{margin-left: -14px;}
+.content .bottom li div.btn input{width: 20px;height: 20px;vertical-align: middle;opacity: 0;}
+.content .bottom li div.btn label{background: url(../img/shop/check2.png) no-repeat;vertical-align: middle;margin-left: 5px;display: inline-block;} */
+
+.content .bottom li div.btn{margin-left: -14px;}
+.content .bottom li div.btn input{width: 20px;height: 20px;vertical-align: middle;}
+.content .bottom li div.img{margin-top: 0;margin-left: 33px;width: auto;}
+.content .bottom li div.name{width: 140px;margin-left:60px;margin-right:0px}
+.content .bottom li div.name a{font-size: 18px;}
+.content .bottom li div.zhe{width: 30px;margin-left:80px}
+.content .bottom li div.zhe p{color: #999999;font-size: 18px;}
+.content .bottom li div.price{width: 140px;text-align: center;margin-left:0px}
+.content .bottom li div.price p{color: #999999;font-size: 18px;}
+.content .bottom li div.input a img{display: inline;vertical-align: middle;}
+.content .bottom li div.input input{width: 22px;height: 22px;border: 1px solid #666666;line-height: 22px;text-align: center;padding: 0;vertical-align: middle;margin: 0 6px;color: #999999;}
+.content .bottom>p span{font-size: 18px;}
+.content .bottom>p span:first-of-type{display: inline-block;width: 92px;text-align: center;}
+.content .bottom>p span:first-of-type img{display: inline;vertical-align: middle;}
+.content .bottom>p span:first-of-type+span{display: inline-block;width: 142px;text-align: center;}
+.content .bottom>p span:first-of-type+span+span{display: inline-block;width: 177px;text-align: center;}
+.content .bottom>p span:first-of-type+span+span+span{display: inline-block;width: 146px;text-align: center;}
+.content .bottom>p span:first-of-type+span+span+span+span{display: inline-block;width: 126px;text-align: center;}
+.content .bottom>p span:first-of-type+span+span+span+span+span{display: inline-block;width: 184px;text-align: center;}
+.content .bottom li:after{content: "";display: block;clear: both;}
+.content .bottom li:last-of-type{border: none;}
+
+/* .content .bottom .allcheck span:first-of-type{float: left;width: 20px;height: 20px;background: url(../img/shop/check2.png) no-repeat;margin-left: 33px;margin-top: 2px;}
+.content .bottom .allcheck span:first-of-type input{width: 20px;height: 20px;opacity: 0;}
+.content .bottom .allcheck label{cursor: pointer;margin-left: 20px;vertical-align: middle;color: #999999;} */
+
+.content .bottom .allcheck span:first-of-type input{width: 20px;height: 20px;}
+.content .bottom .allcheck label{cursor: pointer;margin-left: 20px;vertical-align: middle;color: #999999;}
+.allcheckbtn{margin-right: 11px;margin-top: 25px;}
+.allcheck label{padding-bottom:12px;font-size: 16px}
+.content .bottom .allcheck .tolpri{float: right;font-size: 24px;color: #879D17;}
+.content .bottom .allcheck .tolpri i{font-style: normal;font-size: 18px;color: #999999;}
+.content .bottom:after{content: "";display: block;clear: both;}
+.content .ng>a:first-of-type+a{width: 100px;height: 33px;border: 1px solid #879D17;color: #879D17;text-align: center;line-height: 33px;margin-right: 80px;margin-top: 20px;margin-bottom: 20px;font-size: 18px;}
+.content .ng>a:first-of-type{margin-right: 20px;margin-top: 24px;font-size: 18px;}

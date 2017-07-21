@@ -1,0 +1,43 @@
+.content{background: #f5f5f5;}
+.content .mg{width: 1160px;padding: 0 20px;}
+.content h2{text-align: center;margin: 60px auto;}
+.content h2 span{font-size: 30px;font-weight: normal;text-align: center;border-top:1px solid #879D17;border-bottom: 1px solid #879D17;display: inline-block;line-height:56px;padding: 0 30px;}
+
+.content .slibebar{margin-right: 10px;margin-top: 126px;}
+.content .slibebar li{width: 170px;height: 50px;text-align: center;line-height: 50px;background: #879D17;color: white;}
+.content .slibebar li.on{background: white;}
+.content .slibebar li.on a{color: #879D17;}
+.content .slibebar li.on span{background: #879D17}
+.content .slibebar li:hover{background: white;}
+.content .slibebar li:hover a{color: #879D17;}
+.content .slibebar li:hover span{background: #879D17}
+.content .slibebar li a{color: white;display: block;height: 50px;}
+.content .slibebar li a span{width: 100px;height: 1px;display: block;background: white;margin: 0 auto;color: white;margin-top: -10px;}
+
+.content .main{overflow: hidden;background: white;margin-top: 40px;padding: 60px;margin-bottom: 120px;}
+.content .address{border-bottom: 1px solid #879D17;padding-left: 10px;overflow: hidden;margin-top: 60px;}
+.content .address a.on{color: #879d17;}
+.content .address a:hover{color: #879D17;}
+
+.content .main div.fl{width: 556px;height: 494px;text-align: center;}
+.content .main div.fl>img{margin: 0 auto;margin-bottom: 50px;width: 442px;height: 320px;}
+.content .main div.fl .prolist{width: 460px;overflow: hidden;margin-left: 48px;}
+.content .main div.fl ul{display: inline-block;*display: inline;zoom: 1;margin-right: -60px;overflow:hidden;width: 2000px;}
+.content .main div.fl ul li{float: left;margin-right: 58px;width: 72px;}
+.content .main div.fl ul li.on img{border: 1px solid #879D17;}
+.content .main div.fl ul li img{width: 68px;height: 67px;border: 1px solid white;}
+
+.content .main a.fl{margin-top: 23px;margin-left: 15px;}
+.content .main a.fr{margin-top: 23px;z-index: 100;margin-right: 15px;}
+
+.content .main .right{overflow: hidden;text-align: center;}
+.content .main .right p{font-size: 18px;color: #666666;line-height: 41px;text-align: left;}
+.content .main .right p span{color: #999999;}
+
+.content .main .right .buy{width: 98px;height: 38px;border: 1px solid #a7b755;color: #879d17;display: inline-block;text-align: center;line-height: 38px;margin-top: 20px;margin-right: 30px;}
+.content .main .right .buy:hover{background: #879D17;color: white;}
+.content .main .right .add:hover{background: #879D17;color: white;}
+.content .main .right .add{width: 98px;height: 38px;border: 1px solid #a7b755;color: #879d17;display: inline-block;text-align: center;line-height: 38px;}
+.content .main .right .share{font-size: 14px;color: #666666;text-align: right;margin-top: 100px;}
+.content .main .right .share img{display: inline;margin: 0 10px;}
+
